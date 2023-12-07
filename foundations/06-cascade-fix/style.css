@@ -11,6 +11,7 @@ body {
 .para.small-para {
   font-size: 14px;
   font-weight: 800;
+  border: ;
 }
 
 .para {
@@ -21,6 +22,7 @@ body {
   background: green;
   color: white;
   font-weight: bold;
+  mar
 } 
 
 .button {
