@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
 
 .profile-image {
@@ -36,6 +39,22 @@ button {
   color: white;
   padding: 8px 24px;
 }
+
+.links{
+ display: flex;
+ gap: 4px;
+}
+
+.right-header{
+  display: flex;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.profile-image{
+  margin-left: 5px;
+}
+
 
 a {
   /* this removes the line under our links */
