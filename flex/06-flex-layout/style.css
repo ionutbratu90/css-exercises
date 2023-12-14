@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -22,6 +25,46 @@ input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
-  width: 400px;
+  width: 600px;
   margin-bottom: 16px;
+}
+
+/* Solution */
+/* div{
+  border: 2px solid rebeccapurple;
+} */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: lightgrey;
+}
+
+.content{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer{
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
